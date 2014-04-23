@@ -1,0 +1,18 @@
+body {
+	font-family: 'Josefin Slab', 'serif';
+	background-image:url('Golden_Gate.jpg');
+	background-size: 100%;
+	color: #DCDDDE;
+}
+
+#title {
+	font-size: 25px;
+}
+
+#projects {
+	font-size: 20px;
+}
+
+#contact {
+	font-size: 20px;
+}
