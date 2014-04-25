@@ -5,7 +5,6 @@ body {
 	color: #DCDDDE;
 	margin: 40px 40px;
 	font-size: 25px;
-
 }
 
 img {
@@ -15,23 +14,31 @@ img {
 	margin: 10px 10px;
 }
 
-h2 {
-	margin: 5px;
+.projects {
+	display: inline-block;
+	margin: 70px 130px;
 }
 
-h3 {
-	margin: 10px 0px;
+.project-title {
+	margin: -170px 0 0 370px;
 }
 
-a {
-	text-decoration: none;
+.project-text {
+	margin: -20px 0 0 0;
 }
 
-p {
-	margin: 5px;
+.arrow {
+	width: 30px;
+	height: 30px;
+	margin: -53px 0 0 100px;
 }
 
 #contact {
+	position: fixed;
+	bottom: 80px;
+}
+
+#links {
 	position: fixed;
 	bottom: 20px;
 }
@@ -41,17 +48,4 @@ p {
 	font-size: 18px;
 	bottom: 20px;
 	right: 20px;
-}
-
-.project-title {
-	position: fixed;
-	display: inline;
-	right: 150px;
-	width: 710px;
-	top: 100px;
-}
-
-.arrow {
-	width: 34px;
-	height: 34px;
 }
