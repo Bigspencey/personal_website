@@ -1,13 +1,13 @@
 window.onload = function() {
-	var elements = document.querySelectorAll('#links');
+	var elements = document.getElementsByClassName('link-img');
 
 	for (var i = 0; i < elements.length; i++) {
 		elements[i].onmouseover = function() {
-			document.querySelector(this).style.backgroundColor = 'grey'
+			this.style.opacity = '0.7'
 		};
 		elements[i].onmouseout = function() {
-			document.querySelector(this).style.backgroundColor = 'white'
+			this.style.opacity = '1'
 		}
 	};
   
-};
+};		
