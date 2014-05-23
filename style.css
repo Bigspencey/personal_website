@@ -20,17 +20,26 @@ img {
 }
 
 .project-title {
-	margin: -170px 0 0 370px;
-}
-
-.project-text {
-	margin: -20px 0 0 0;
+	position: absolute;
+	width: 	730px;
+	right: 30px;
+	top: 10px;
 }
 
 .arrow {
+	position: absolute;
 	width: 30px;
 	height: 30px;
-	margin: -53px 0 0 100px;
+	top: 11px;
+	right: 245px;
+}
+
+.arrow2 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 117px;
+	right: 150px;
 }
 
 .contact {
